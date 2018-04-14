@@ -1,4 +1,23 @@
 /*
- Theme Name: Twenty Seventeen Child - TAP
- 
+ Theme Name:    Twenty Seventeen Child - TAP
+ Description:   Custom TAP theme built using parent theme of twentyseventeen
+ Author:        Andy Tien
+ Author URI:    https://actien.github.io/
+ Template:      twentyseventeen
+ Version:       1.0.0
+ License:       Gnu General Public License
 */
+
+/*--------------------------------------------------------------
+This theme contains overrides for coloring on the website.
+--------------------------------------------------------------*/
+
+.navigation-top {
+    background: #00c4b5;
+    border-bottom: 0px solid #eee;
+    border-top: 0px solid #eee;
+}
+
+.main-navigation ul {
+    background: #00c4b5;
+}

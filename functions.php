@@ -1,13 +1,14 @@
 <?php
+/**
+ * GeneratePress child theme functions and definitions.
+ *
+ * Add your custom PHP in this file. 
+ * Only edit this file if you have direct access to it on your server (to fix errors if they happen).
+ */
 
-function tap_enqueue_styles() {
-    $parent_style = 'parent-style';
-
-    wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css');
-    wp_enqueue_style('child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array($parent_style)
-    );
+function generatepress_child_enqueue_scripts() {
+	if ( is_rtl() ) {
+		wp_enqueue_style( 'generatepress-rtl', trailingslashit( get_template_directory_uri() ) . 'rtl.css' );
+	}
 }
-add_action( 'wp_enqueue_scripts', 'tap_enqueue_styles' )
-?>
+add_action( 'wp_enqueue_scripts', 'generatepress_child_enqueue_scripts', 100 );

@@ -1,28 +1,10 @@
 /*
- Theme Name:    Twenty Seventeen Child - TAP
- Description:   Custom TAP theme built using parent theme of twentyseventeen
- Author:        Andy Tien
- Author URI:    https://actien.github.io/
- Template:      twentyseventeen
- Version:       1.0.0
- License:       Gnu General Public License
+ Theme Name:   TAP 2018 (GeneratePress Child)
+ Theme URI:    https://generatepress.com
+ Description:  Child theme of Generate Press
+ Author:       Andy Tien
+ Author URI:   https://actien.github.io
+ Template:     generatepress
+ Version:      0.1
 */
 
-/*--------------------------------------------------------------
-Style navigation bar to the TAP teal color and use white letters
---------------------------------------------------------------*/
-
-.navigation-top {
-    background: #00c4b5;
-    color: #fff;
-    border-bottom: 1px solid #eee;
-    border-top: 1px solid #eee;
-}
-
-.navigation-top a {
-    color: #fff;
-}
-
-.main-navigation ul {
-    background: #00c4b5;
-}

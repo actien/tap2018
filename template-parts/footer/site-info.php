@@ -14,6 +14,5 @@
 <p>
   <br/>
   &copy; 2017 TAP-NY. All rights reserved.
-  A 501(c)(3) organization for the Taiwanese American community in the NYC area.
 </p>
 </div><!-- .site-info -->

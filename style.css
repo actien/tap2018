@@ -15,8 +15,8 @@ Style navigation bar to the TAP teal color and use white letters
 .navigation-top {
     background: #00c4b5;
     color: #fff;
-    border-bottom: 1px solid #eee;
-    border-top: 1px solid #eee;
+    border-bottom: 0px solid #eee;
+    border-top: 0px solid #eee;
 }
 
 .navigation-top a {
